@@ -1,0 +1,22 @@
+ul{
+    list-style-type: circle;
+    list-style-type: square;
+}
+
+
+ol{
+    list-style-type:upper-roman ;
+    list-style-type: lower-roman;
+}
+
+UL{
+    list-style-type: none;
+    padding: 0;
+    border: 2px solid gray;
+}
+
+ol{
+    background: ffee;
+}
+
+
