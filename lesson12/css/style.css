@@ -32,3 +32,15 @@ h1{
 .myElement{
     color: blue;
 }
+
+#normalText{
+    font-style: normal;
+}
+
+#italicText{
+    font-style: italic;
+}
+
+#boldText{
+    font-style: oblique;
+}
