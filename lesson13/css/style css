@@ -16,7 +16,41 @@ UL{
 }
 
 ol{
-    background: ffee;
+    background: #ffeeee;
+    padding: 10px;
+
 }
+
+td, th{
+    border:1px solid #eee;
+    padding: 15px;
+}
+
+tbody tr:nth-child(odd){
+    background-color: #ff33cc;
+}
+
+tbody tr:nth-child(even){
+    background-color: #ff33cc;
+}
+
+div{
+    overflow: scroll;
+    background-color: #f27979;
+    width: 200px;
+    height: 200px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td{
+    text-align: left;
+    padding: 10px;
+}
+
+tr:nth-child(even) {background-color: #eae2e2;}
 
 
