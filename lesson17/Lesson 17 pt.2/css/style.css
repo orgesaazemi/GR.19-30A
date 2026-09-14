@@ -1,0 +1,11 @@
+:root{
+    --primary-color:rgb(199, 141, 199);
+    --secondary-color:pink;
+    --padding: 20px;
+
+}
+.h1{
+   background-color: var(--primary-color);
+   color: var(--secondary-color);
+   padding: var(--padding);
+}
