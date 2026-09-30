@@ -1,0 +1,16 @@
+body{
+    margin: 0%;
+    text-align: center;
+}
+
+nav{
+    background-color: aliceblue;
+    padding: 15px;
+}
+nav a{
+    color:pink ;
+    
+}
+
+
+
