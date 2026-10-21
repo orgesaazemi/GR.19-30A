@@ -1,87 +1,355 @@
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>swimwear</title>
+
+    <title>SWIMÉ - Swimwear</title>
+
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <nav>
-        <ul>
-      <li><a href="#">HOME</a></li>
-      <a href=""></a>
-      <li><a href="#">COLECTION</a></li>
-      <li><a href="#">SHOP</a></li>
-       <li><a href="#">ABOUT</a></li>
-       <li><a href="#">CONTACT US</a></li>
-        </ul>
-       
-    </nav>
-     <section class="about"id="about">
-        <h2>ABOUT US</h2>
-        <P>
-            WELCOME TO SWIMÉ.We create stylish and
-             comfortable
-                        swimwear for your perfect sumer days.
-        </P>
-    </section>
-      <footer id="contact">
-        <h2>SWIMÉ</h2>
-        <p>2026 SWIMÉ〡All Rights Reserved</p>
-    </footer>
-    <section class="hero" id="home">
-        <div>
-            <h1>SUMMER COLLECTION</h1>
-            <P>DISCOVER YOUR PERFECT SWIMWEAR</P>
-            <a href="#shop"class="btn">SHOP NOW</a>
+
+    <!-- NAVIGATION -->
+
+    <header>
+        <nav>
+
+            <div class="logo">
+                SWIMÉ
+            </div>
+
+            <ul class="menu">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#collection">COLLECTION</a></li>
+                <li><a href="#products">SHOP</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+
+           
+
+        </nav>
+    </header>
+
+
+    <!-- HERO -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-text">
+
+            <p>NEW SUMMER COLLECTION</p>
+
+            <h1>
+                FEEL THE<br>
+                SUMMER
+            </h1>
+
+            <p>
+                Discover our new collection of modern
+                and elegant swimwear.
+            </p>
+
+            <a href="#products" class="button">
+                SHOP NOW
+            </a>
+
         </div>
 
-    
-    <div class="collection"id="shop">
-        <h2>OUR SWIMWEAR</h2>
-
-           <div class="product">
-            <img class="img1" src="./assets/images (1).jpg">
-            <h3>Wave Swim Suit</h3>
-            <P>$37,99</P>
-            <button>SHOP NOW</button>
-           </div>
-    </div>
-    <div class="product">
-        <img class="img2"src="./assets/mw-m026703.avif">
-        <h3>SWIMSUIT SHORTS</h3>
-        <p>$34,85</p>
-        <button>SHOP NOW</button>
-    </div>
-    <div class="product">
-        <img class="img3" src="./assets/0078749_swimsuit-women-mad-wave-matrix-017766_460.jpeg">
-        <h3>Blue SwimSuit</h3>
-        <p>$29,99</p>
-        <button>SHOP NOW</button>
-    </div>
-    <div class="product">
-        <img class="img4"  src="./assets/Josea_Surfwear_Bikini_Portugal_Full-21 (1).webp">
-        <h3>JOSEA SwimSuit</h3>
-        <p>$31,95</p>
-        <button>SHOP NOW</button>
-    </div>
-    <div class="product">
-        <img class="img5"  src="./assets/2-9_PalmBeach_HB_02-12-26_06160_212650 (1).webp">
-        <h3>Pink BIKINI</h3>
-        <P>$29,00</P>
-        <button>SHOP NOW</button>
-    </div>
     </section>
-    
 
-    <footer id="contact">
-        <h2>SWIMÉ</h2>
-        <p>2026 SWIMÉ〡All Rights Reserved</p>
+
+    <!-- COLLECTION -->
+
+    <section id="collection" class="collection">
+
+        <div class="section-title">
+            <p>EXPLORE</p>
+            <h2>OUR COLLECTION</h2>
+        </div>
+
+        <div class="categories">
+
+            <div class="category">
+                <img src="assets/0078749_swimsuit-women-mad-wave-matrix-017766_460.jpeg" alt="Bikini">
+                <div class="category-text">
+                    <h3>BIKINIS</h3>
+                    <p>$23,89</p>
+                    <a href="#products">SHOP NOW →</a>
+                </div>
+            </div>
+
+         
+
+        </div>
+
+    </section>
+
+
+    <!-- PRODUCTS -->
+
+    <section id="products" class="products-section">
+
+        <div class="section-title">
+
+            <p>SHOP</p>
+
+            <h2>BEST SELLERS</h2>
+
+        </div>
+
+
+        <div class="products">
+
+            <!-- PRODUCT 1 -->
+
+            <div class="product">
+
+                <div class="product-image">
+
+                    <img src="./assets/2-9_PalmBeach_HB_02-12-26_06160_212650.webp">
+                         alt="pink swimsuit">
+
+                    <span class="new">
+                        NEW
+                    </span>
+
+                </div>
+
+                <h3>Black Essential Swimsuit</h3>
+
+                <p class="price">
+                    $45
+                </p>
+
+                <button>
+                    ADD TO BAG
+                </button>
+
+            </div>
+
+
+            <!-- PRODUCT 2 -->
+
+            <div class="product">
+
+                <div class="product-image">
+
+                    <img src="./assets/erjwr03776_roxy,l_kvj6_frt1.jpg">
+                         alt="black swimsuit">
+
+                </div>
+
+                <h3>White Summer Bikini</h3>
+
+                <p class="price">
+                    $39
+                </p>
+
+                <button>
+                    ADD TO BAG
+                </button>
+
+            </div>
+
+
+            <!-- PRODUCT 3 -->
+
+            <div class="product">
+
+                <div class="product-image">
+
+                    <img src="./assets/mw-m026703.avif">
+                         alt="red swimsuit">
+
+                </div>
+
+                <h3>Red Minimal Swimsuit</h3>
+
+                <p class="price">
+                    $42
+                </p>
+
+                <button>
+                    ADD TO BAG
+                </button>
+
+            </div>
+
+
+            <!-- PRODUCT 4 -->
+
+            <div class="product">
+
+                <div class="product-image">
+
+                    <img src="./assets/Josea_Surfwear_Bikini_Portugal_Full-21 (1).webp">
+                         alt="Blue swimsuit">
+
+                </div>
+
+                <h3>Ocean Blue Bikini</h3>
+
+                <p class="price">
+                    $40
+                </p>
+
+                <button>
+                    ADD TO BAG
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+
+    <section id="about" class="about">
+
+        <div class="about-image">
+
+            <img src="./assets/Freya-Arizona-Wave-Non-Wired-Plunge-Swimsuit~39X928FRSP.webp">
+                 alt="Swimwear collection">
+
+        </div>
+
+        <div class="about-text">
+
+            <p>ABOUT SWIMÉ</p>
+
+            <h2>
+                DESIGNED FOR
+                SUMMER
+            </h2>
+
+            <p>
+                SWIMÉ is a modern swimwear brand
+                created for sunny days, holidays
+                and unforgettable moments.
+            </p>
+
+            <p>
+                Our collection combines simple
+                designs, comfortable materials
+                and timeless style.
+            </p>
+
+            <a href="#products" class="button">
+                DISCOVER MORE
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- NEWSLETTER -->
+
+    <section class="newsletter">
+
+        <p>STAY UPDATED</p>
+
+        <h2>
+            JOIN OUR WORLD
+        </h2>
+
+        <p>
+            Subscribe to receive news,
+            new collections and special offers.
+        </p>
+
+        <form>
+
+            <input
+                type="email"
+                placeholder="Your email address"
+            >
+
+            <button type="submit">
+                SUBSCRIBE
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section id="contact" class="contact">
+
+        <h2>CONTACT US</h2>
+
+        <p>
+            Have a question? We'd love to hear from you.
+        </p>
+
+        <p>
+            Email: hello@swime.com
+        </p>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="footer-logo">
+            SWIMÉ
+        </div>
+
+        <div class="footer-links">
+
+            <div>
+                <h4>SHOP</h4>
+
+                <a href="#products">Bikinis</a>
+                <a href="#products">Swimsuits</a>
+                <a href="#products">New Collection</a>
+
+            </div>
+
+
+            <div>
+                <h4>HELP</h4>
+
+                <a href="#contact">Contact</a>
+                <a href="#">Shopping</a>
+                <a href="#">Returns</a>
+
+            </div>
+
+
+            <div>
+                <h4>FOLLOW US</h4>
+
+                <a href="#">Instagram</a>
+                <a href="#">TikTok</a>
+                <a href="#">Pinterest</a>
+
+            </div>
+
+        </div>
+
+        <div class="copyright">
+
+            © 2026 SWIMÉ. All Rights Reserved.
+
+        </div>
+
     </footer>
-    
 
-   
-    
 </body>
+
 </html>
